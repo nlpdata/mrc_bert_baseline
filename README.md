@@ -6,7 +6,7 @@ This repository maintains a machine reading comprehension baseline based on [BER
 * [Improving Question Answering with External Knowledge](https://arxiv.org/abs/1902.00993)
 * [Probing Prior Knowledge Needed in Challenging Chinese Machine Reading Comprehension](https://arxiv.org/abs/1904.09679)
 
-If you find this code useful, please cite the following papers.
+If you find this code useful, please consider citing the following papers.
 
 ```
 @article{pan2019improving,
