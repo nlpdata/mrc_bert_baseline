@@ -14,7 +14,7 @@ If you find this code useful, please cite the following papers.
   author={Pan, Xiaoman and Sun, Kai and Yu, Dian and Ji, Heng and Yu, Dong},
   journal={CoRR},
   volume={cs.CL/1902.00993v1}
-  ur={https://arxiv.org/abs/1902.00993v1},
+  url={https://arxiv.org/abs/1902.00993v1},
   year={2019}
 }
 
