@@ -6,7 +6,25 @@ This repository maintains an MRC baseline based on BERT, whose implemetation is 
 * [Improving Question Answering with External Knowledge](https://arxiv.org/abs/1902.00993)
 * [Probing Prior Knowledge Needed in Challenging Chinese Machine Reading Comprehension](https://arxiv.org/abs/1904.09679)
 
+If you find this code useful, please cite the following papers.
 
+```
+@article{pan2019improving,
+  title={Improving Question Answering with External Knowledge},
+  author={Pan, Xiaoman and Sun, Kai and Yu, Dian and Ji, Heng and Yu, Dong},
+  journal={arXiv preprint arXiv:1902.00993},
+  year={2019}
+}
+```
+
+```
+@article{sun2019probing,
+  title={Probing Prior Knowledge Needed in Challenging Chinese Machine Reading Comprehension},
+  author={Sun, Kai and Yu, Dian and Yu, Dong and Cardie, Claire},
+  journal={arXiv preprint arXiv:1904.09679},
+  year={2019}
+}
+```
 
 Here, we show the usage of our baseline by a demo designed for the [DREAM](https://dataset.org/dream/) dataset.
 
