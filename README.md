@@ -1,4 +1,4 @@
-A machine reading comprehension baseline based on BERT
+A Machine Reading Comprehension Baseline Based on BERT
 ------------------------------------------------------
 
 This repository maintains an MRC baseline based on BERT, whose implemetation is based on the baseline description in the following two works
