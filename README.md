@@ -15,9 +15,7 @@ If you find this code useful, please cite the following papers.
   journal={arXiv preprint arXiv:1902.00993},
   year={2019}
 }
-```
 
-```
 @article{sun2019probing,
   title={Probing Prior Knowledge Needed in Challenging Chinese Machine Reading Comprehension},
   author={Sun, Kai and Yu, Dian and Yu, Dong and Cardie, Claire},
@@ -26,7 +24,7 @@ If you find this code useful, please cite the following papers.
 }
 ```
 
-Here, we show the usage of our baseline by a demo designed for the [DREAM](https://dataset.org/dream/) dataset.
+Here, we show the usage of this baseline by a demo designed for the [DREAM](https://dataset.org/dream/) dataset.
 
   1. Download and unzip the pre-trained language model from https://github.com/google-research/bert. and set up the environment variable for BERT by ```export BERT_BASE_DIR=/PATH/TO/BERT/DIR```.
   2. Copy the data folder ```data``` from the [DREAM repo](https://github.com/nlpdata/dream) to ```ftlm++/```.
