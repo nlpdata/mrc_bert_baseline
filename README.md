@@ -1,7 +1,7 @@
 A BERT-Based Machine Reading Comprehension Baseline
 ------------------------------------------------------
 
-This repository maintains a machine reading comprehension (MRC) baseline based on [BERT](https://arxiv.org/abs/1810.04805). We follow the system descriptions in the following two papers to implement this baseline. 
+This repository maintains a machine reading comprehension baseline based on [BERT](https://arxiv.org/abs/1810.04805). We follow the system descriptions in the following two papers to implement this baseline. 
 
 * [Improving Question Answering with External Knowledge](https://arxiv.org/abs/1902.00993)
 * [Probing Prior Knowledge Needed in Challenging Chinese Machine Reading Comprehension](https://arxiv.org/abs/1904.09679)
