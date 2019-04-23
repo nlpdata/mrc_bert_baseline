@@ -1,7 +1,7 @@
 A BERT-Based Machine Reading Comprehension Baseline
 ------------------------------------------------------
 
-This repository maintains an MRC baseline based on BERT, whose implemetation is based on the baseline description in the following two works
+This repository maintains a machine reading comprehension (MRC) baseline based on BERT. We follow the system descriptions in the following two papers to implement this baseline. 
 
 * [Improving Question Answering with External Knowledge](https://arxiv.org/abs/1902.00993)
 * [Probing Prior Knowledge Needed in Challenging Chinese Machine Reading Comprehension](https://arxiv.org/abs/1904.09679)
@@ -24,7 +24,7 @@ If you find this code useful, please cite the following papers.
 }
 ```
 
-Here, we show the usage of this baseline by a demo designed for the [DREAM](https://dataset.org/dream/) dataset.
+Here, we show the usage of this baseline using a demo designed for the [DREAM](https://dataset.org/dream/) dataset.
 
   1. Download and unzip the pre-trained language model from https://github.com/google-research/bert. and set up the environment variable for BERT by ```export BERT_BASE_DIR=/PATH/TO/BERT/DIR```.
   2. Copy the data folder ```data``` from the [DREAM repo](https://github.com/nlpdata/dream) to ```bert/```.
