@@ -36,10 +36,13 @@ Here, we show the usage of this baseline using a demo designed for [DREAM](https
   4. Execute ```python run_classifier.py   --task_name dream  --do_train --do_eval   --data_dir .   --vocab_file $BERT_BASE_DIR/vocab.txt   --bert_config_file $BERT_BASE_DIR/bert_config.json   --init_checkpoint $BERT_BASE_DIR/pytorch_model.bin   --max_seq_length 512   --train_batch_size 24   --learning_rate 2e-5   --num_train_epochs 8.0   --output_dir dream_finetuned  --gradient_accumulation_steps 3```
   5. The resulting fine-tuned model, predictions, and evaluation results are stored in ```bert/dream_finetuned```.
 
-**Results**:
+**Results on DREAM**:
 
-| Language Model       | Dev   | Test |
-| -------------------- | ----- | ---- |
-| BERT-Base, Uncased   | 63.4  | 63.2 |
+Following [Sun et al.](https://arxiv.org/abs/1904.09679), we run the experiments five times with different random seeds and report the best development set performance and the corresponding test set performance. 
+
+| Language Model       | Batch Size | Learning Rate | Epochs | Dev  | Test |
+| -------------------- | ---------- | ------------- | ------ | ---  | ---- |
+| BERT-Base, Uncased   | 24         | 2e-5          | 8      | 63.4 | 63.2 |
+| BERT-Large, Uncased  | 24         | 2e-5          | 16     | 66.0 | 66.8 |
 
 **Environment**: The code has been tested with Python 3.6 and PyTorch 1.0
