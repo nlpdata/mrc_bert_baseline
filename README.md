@@ -45,7 +45,6 @@ We run the experiments five times with different random seeds and report the bes
 | --------------------  | ---------- | ------------- | ------ | ---  | ---- |
 | BERT-Base, Uncased    | 24         | 2e-5          | 8      | 63.4 | 63.2 |
 | BERT-Large, Uncased   | 24         | 2e-5          | 16     | 66.0 | 66.8 |
-| --------------------  | ---------- | ------------- | ------ | ---  | ---- |
 | [Human Performance](https://arxiv.org/abs/1902.00164v1)     |            |               |        | 93.9 | 95.5 |
 | [Ceiling Performance](https://arxiv.org/abs/1902.00164v1)   |            |               |        | 98.7 | 98.6 |
 
