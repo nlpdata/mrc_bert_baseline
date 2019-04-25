@@ -9,6 +9,15 @@ This repository maintains a machine reading comprehension baseline based on [BER
 If you find this code useful, please consider citing the following papers.
 
 ```
+@article{sun2019probing,
+  title={Probing Prior Knowledge Needed in Challenging Chinese Machine Reading Comprehension},
+  author={Sun, Kai and Yu, Dian and Yu, Dong and Cardie, Claire},
+  journal={CoRR},
+  volume={cs.CL/1904.09679v1},
+  url={https://arxiv.org/abs/1904.09679v1}
+  year={2019}
+}
+
 @article{pan2019improving,
   title={Improving Question Answering with External Knowledge},
   author={Pan, Xiaoman and Sun, Kai and Yu, Dian and Ji, Heng and Yu, Dong},
@@ -18,14 +27,6 @@ If you find this code useful, please consider citing the following papers.
   year={2019}
 }
 
-@article{sun2019probing,
-  title={Probing Prior Knowledge Needed in Challenging Chinese Machine Reading Comprehension},
-  author={Sun, Kai and Yu, Dian and Yu, Dong and Cardie, Claire},
-  journal={CoRR},
-  volume={cs.CL/1904.09679v1},
-  url={https://arxiv.org/abs/1904.09679v1}
-  year={2019}
-}
 ```
 
 Here, we show the usage of this baseline using a demo designed for [DREAM](https://dataset.org/dream/), a dialogue-based three-choice machine reading comprehension task.
@@ -38,11 +39,15 @@ Here, we show the usage of this baseline using a demo designed for [DREAM](https
 
 **Results on DREAM**:
 
-Following [Sun et al.](https://arxiv.org/abs/1904.09679), we run the experiments five times with different random seeds and report the best development set performance and the corresponding test set performance. 
+We run the experiments five times with different random seeds and report the best development set performance and the corresponding test set performance. 
 
-| Language Model       | Batch Size | Learning Rate | Epochs | Dev  | Test |
-| -------------------- | ---------- | ------------- | ------ | ---  | ---- |
-| BERT-Base, Uncased   | 24         | 2e-5          | 8      | 63.4 | 63.2 |
-| BERT-Large, Uncased  | 24         | 2e-5          | 16     | 66.0 | 66.8 |
+| Method/Language Model | Batch Size | Learning Rate | Epochs | Dev  | Test |
+| --------------------  | ---------- | ------------- | ------ | ---  | ---- |
+| BERT-Base, Uncased    | 24         | 2e-5          | 8      | 63.4 | 63.2 |
+| BERT-Large, Uncased   | 24         | 2e-5          | 16     | 66.0 | 66.8 |
+| --------------------  | ---------- | ------------- | ------ | ---  | ---- |
+| [Human Performance](https://arxiv.org/abs/1902.00164v1)     |            |               |        | 93.9 | 95.5 |
+| [Ceiling Performance](https://arxiv.org/abs/1902.00164v1)   |            |               |        | 98.7 | 98.6 |
+
 
 **Environment**: The code has been tested with Python 3.6 and PyTorch 1.0
