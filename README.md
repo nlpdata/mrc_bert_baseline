@@ -13,8 +13,8 @@ If you find this code useful, please consider citing the following papers.
   title={Probing Prior Knowledge Needed in Challenging Chinese Machine Reading Comprehension},
   author={Sun, Kai and Yu, Dian and Yu, Dong and Cardie, Claire},
   journal={CoRR},
-  volume={cs.CL/1904.09679v1},
-  url={https://arxiv.org/abs/1904.09679v1}
+  volume={cs.CL/1904.09679v2},
+  url={https://arxiv.org/abs/1904.09679v2}
   year={2019}
 }
 
